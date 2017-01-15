@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7469723B1E2C25C600DC51CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746972391E2C25C600DC51CE /* Main.storyboard */; };
 		B4052DAC1DD9AC100004C21D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4052DAB1DD9AC100004C21D /* ViewController.swift */; };
 		B4052DAE1DD9AE5A0004C21D /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4052DAD1DD9AE5A0004C21D /* MainPage.swift */; };
 		B4052DB01DD9B37B0004C21D /* MainPage.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4052DAF1DD9B37B0004C21D /* MainPage.sks */; };
 		B433B8E11DCFFE5600B9518D /* bgSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B433B8E01DCFFE5600B9518D /* bgSound.mp3 */; };
 		B433B8E31DD021BB00B9518D /* Princess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433B8E21DD021BB00B9518D /* Princess.swift */; };
 		B433B8E61DD035B300B9518D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B433B8E51DD035B300B9518D /* AVFoundation.framework */; };
-		B433B8E91DD077CD00B9518D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B433B8E81DD077CD00B9518D /* Main.storyboard */; };
 		B4A00D621DCED9DD0035931E /* AfterGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A00D611DCED9DD0035931E /* AfterGameScene.swift */; };
 		B4B7B99E1DCEA97B00A418D5 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7B99D1DCEA97B00A418D5 /* Enemy.swift */; };
 		B4BEE9B71DCD7E8800B0ECE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEE9B61DCD7E8800B0ECE8 /* AppDelegate.swift */; };
@@ -45,13 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7469723A1E2C25C600DC51CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4052DAB1DD9AC100004C21D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4052DAD1DD9AE5A0004C21D /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		B4052DAF1DD9B37B0004C21D /* MainPage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainPage.sks; sourceTree = "<group>"; };
 		B433B8E01DCFFE5600B9518D /* bgSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgSound.mp3; sourceTree = "<group>"; };
 		B433B8E21DD021BB00B9518D /* Princess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Princess.swift; sourceTree = "<group>"; };
 		B433B8E51DD035B300B9518D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B433B8E81DD077CD00B9518D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Main.storyboard; sourceTree = "<group>"; };
 		B4A00D611DCED9DD0035931E /* AfterGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterGameScene.swift; sourceTree = "<group>"; };
 		B4B7B99D1DCEA97B00A418D5 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		B4BEE9B31DCD7E8800B0ECE8 /* PixelA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +136,6 @@
 				B4BEE9BC1DCD7E8800B0ECE8 /* GameScene.swift */,
 				B4BEE9BE1DCD7E8800B0ECE8 /* GameViewController.swift */,
 				B4BEE9C31DCD7E8800B0ECE8 /* Assets.xcassets */,
-				B433B8E81DD077CD00B9518D /* Main.storyboard */,
 				B4BEE9C51DCD7E8800B0ECE8 /* LaunchScreen.storyboard */,
 				B4BEE9C81DCD7E8800B0ECE8 /* Info.plist */,
 				B4B7B99D1DCEA97B00A418D5 /* Enemy.swift */,
@@ -145,6 +144,7 @@
 				B4052DAB1DD9AC100004C21D /* ViewController.swift */,
 				B4052DAD1DD9AE5A0004C21D /* MainPage.swift */,
 				B4052DAF1DD9B37B0004C21D /* MainPage.sks */,
+				746972391E2C25C600DC51CE /* Main.storyboard */,
 			);
 			path = PixelA;
 			sourceTree = "<group>";
@@ -285,11 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7469723B1E2C25C600DC51CE /* Main.storyboard in Resources */,
 				B433B8E11DCFFE5600B9518D /* bgSound.mp3 in Resources */,
 				B4BEE9B91DCD7E8800B0ECE8 /* GameScene.sks in Resources */,
 				B4BEE9C41DCD7E8800B0ECE8 /* Assets.xcassets in Resources */,
 				B4052DB01DD9B37B0004C21D /* MainPage.sks in Resources */,
-				B433B8E91DD077CD00B9518D /* Main.storyboard in Resources */,
 				B4BEE9C71DCD7E8800B0ECE8 /* LaunchScreen.storyboard in Resources */,
 				B4BEE9BB1DCD7E8800B0ECE8 /* Actions.sks in Resources */,
 			);
@@ -359,6 +359,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		746972391E2C25C600DC51CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7469723A1E2C25C600DC51CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		B4BEE9C51DCD7E8800B0ECE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
